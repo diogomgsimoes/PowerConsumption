@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="equipamentos_divisao_id_FK" directorySegmentName="seg_0" id="0C55EE2B-8F58-DCC0-FAFC-39E05DA8FCEA">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>3E8CF873-C8F2-B2E4-64B9-251A78BC28FA</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<sourcePk>89F57CBA-CA4B-E3B0-EDAC-176EAC0033B9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F3502E4C-7A47-2E78-CEC7-0152415D33FD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28BC9C17-DCE3-9576-7557-153ADBE02309</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="divisao_edificio_id_FK" directorySegmentName="seg_0" id="96034747-7B6F-3250-D49E-5B8BBE97266F">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>90729F30-A3A4-7BA2-B867-D5EAE15F4D0C</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<sourcePk>23130ED6-2347-9AE6-2912-B0F894351967</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E887A577-684D-05A8-4AE4-2B3DBC9BE230</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F3502E4C-7A47-2E78-CEC7-0152415D33FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA14E93F-FE33-58E0-C6AA-08F76E44FC14" name="erros">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:46:01 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="22F864A1-F5DD-4E74-E545-3031A5B591E8">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:46:28 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equipamento" id="8ECABC90-72CC-8FF7-27B4-3B5553CDDDAF">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:46:49 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="AC0FBF08-FB99-958C-E58B-CE2EC75871A9">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:24 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="845189B7-C2D4-42A7-8F45-A387185FBB43" name="erros_PK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:46:28 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22F864A1-F5DD-4E74-E545-3031A5B591E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

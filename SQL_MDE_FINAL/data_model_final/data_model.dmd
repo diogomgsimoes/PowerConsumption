@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="data_model" id="72703566-FD92-53E4-0411-728BD383157C" version="3.5">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 17:21:03 UTC</createdTime>
+<ownerDesignName>SKETCH</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>72703566-FD92-53E4-0411-728BD383157C</designId>
+</OSDM_Design>

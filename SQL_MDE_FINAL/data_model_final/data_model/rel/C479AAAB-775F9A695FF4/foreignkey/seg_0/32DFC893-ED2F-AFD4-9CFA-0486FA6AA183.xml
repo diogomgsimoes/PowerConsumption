@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="32DFC893-ED2F-AFD4-9CFA-0486FA6AA183" containerWithKeyObject="C13A5511-C935-CE86-4777-8DFE63B74254" localFKIndex="D99C47DA-96C7-7BCA-ABC7-3D87066B2A34" name="tarifas_edificios_edificios_FK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 16:37:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<referredTableLongName>edificio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B8C3A70-CFD2-82D5-F0FC-213C74AC5EF1</referredTableID>
+<keyObject>643A2030-13E8-6840-519B-CDB8FD3B8FBB</keyObject>
+<referredKeyID>643A2030-13E8-6840-519B-CDB8FD3B8FBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>edificio_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

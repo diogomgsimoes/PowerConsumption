@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="log_edificio_bi_FK" directorySegmentName="seg_0" id="EF3C2CE9-657E-0336-1604-6A519003D827">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>E3E57B2D-FAC0-8271-703B-3A987EFC9845</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<sourcePk>EA65432A-9B66-E36F-5E63-BC0B1F3E93C4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E887A577-684D-05A8-4AE4-2B3DBC9BE230</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>491FD1A3-4555-624D-DF99-EA27BE908C03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

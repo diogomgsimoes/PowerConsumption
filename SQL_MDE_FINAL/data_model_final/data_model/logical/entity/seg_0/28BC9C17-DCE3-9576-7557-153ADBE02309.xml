@@ -1,0 +1,276 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28BC9C17-DCE3-9576-7557-153ADBE02309" name="equipamentos">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>E3A077DA-5284-6140-F386-14F6DFC8DEE6</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="equipamento id" id="72A717F6-7827-3256-1031-4DAC3415723D">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>1212B5CA-D890-534E-67F3-38D04EEE5776</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fabricante" id="15182B56-AFBA-3175-2178-EBBE394811CB">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>08558129-DE07-26A4-66CE-27EA8B529107</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="4AFD556F-AA33-92AF-0D8C-F6BB11118B75">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>DCA455B5-7D59-5378-E73D-B4F38B0B7055</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referencia" id="7AEC6FE7-47C5-BC88-7E61-F51B62F4C1AE">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>0710CCE9-399C-6D85-FB35-4794FE80F317</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tensao" id="D392607E-4BD5-74FA-ABBF-6B0BDF0AAFE5">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>A1AED600-F69E-309C-C5B8-04AC917BFCFB</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="potencia" id="BB2FDD1C-B36B-B5ED-0507-0E62999A6ECD">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>2F0C3C86-BF03-65DA-2CBB-D3B44CD35D47</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="corrente" id="32B09FFA-D90E-0C57-131A-9AE253370FF4">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>E80FE66C-6488-2B0B-6E54-F00A5F929AE8</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="22F747A8-0CBB-10AA-3F2A-01186B146915">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>40AADF15-8BAE-3DF1-73C2-880CEA46AEBB</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="divisao divisao id" id="0BF0315B-DFE1-12E5-CACA-362BED24A815">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>0C55EE2B-8F58-DCC0-FAFC-39E05DA8FCEA</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<referedAttribute>55A11B1D-0411-35FB-548A-10C03BBF6EB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edificio edificio id" id="8FE7EA6D-095B-6D4C-4865-1734536021DB">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>D114330B-3E43-7758-2E6E-06E2C8EC9E98</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<referedAttribute>395AA91B-05D0-70B9-9F12-1A330155FE3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora inicio" id="C0C2EBBD-1FF4-7C17-EB34-D877AC1ED81F">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>0833806B-B4EB-C6B7-2CA2-84862D0F3121</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora fim" id="DA51DCE3-F1FE-44C5-AA0E-B83784FC190F">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>4564D153-F529-E6E4-6232-CD7BD3D5E1D6</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora inicio real" id="5F5A6853-D788-2444-59C4-80BF07E38B60">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>519A3F13-B3B1-2162-D10C-BEFA22D2A0DA</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora fim real" id="F07753D4-FDC1-5F82-966A-5902DBCB569E">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>2BCB75B8-D76D-EC5F-B538-BC9DFEB76399</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora inicio1" id="4E91A1B0-E796-726C-AF9B-964B4B98F70D">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:15:03 UTC</createdTime>
+<generatorID>5F7A3FB5-53B1-62A8-61E0-D442BF41B5F2</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora fim1" id="0BEC7BB6-852E-990C-ABF7-45D996239814">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:15:03 UTC</createdTime>
+<generatorID>3BD45E7C-02DE-B7D8-310E-F5EA614CA1B9</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F5DCA43-AE23-4996-5750-C99CBA923693" name="equipamentos PK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>233C3D2D-870E-92A3-97E3-D94D805FDF92</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72A717F6-7827-3256-1031-4DAC3415723D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="793CF3C2-5D5D-F02F-A450-502426E7F755" name="equipamentos  UN">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>645AB3B1-8B43-A722-7A5E-9324BD7E5162</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>4AFD556F-AA33-92AF-0D8C-F6BB11118B75</attributeRef>
+<attributeRef>7AEC6FE7-47C5-BC88-7E61-F51B62F4C1AE</attributeRef>
+<attributeRef>22F747A8-0CBB-10AA-3F2A-01186B146915</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

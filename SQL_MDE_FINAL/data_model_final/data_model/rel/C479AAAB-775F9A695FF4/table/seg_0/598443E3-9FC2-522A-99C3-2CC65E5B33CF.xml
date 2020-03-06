@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="598443E3-9FC2-522A-99C3-2CC65E5B33CF" name="consumos_output">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-02 11:16:43 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9ECB3E99-196C-46E2-4C40-F15E94A9A7CB">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-02 11:17:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="32B83E67-AA62-BB80-7A92-8793C508848A">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-02 11:17:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fim" id="7376111E-1EE6-2535-086C-A7C738972272">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-02 11:17:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kw" id="9E81D75D-EB8A-9634-FA3E-81AF98DDF428">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-02 11:17:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="B621FFF5-DDEF-8106-34EC-4A60D2B6B08F">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-02 11:18:12 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="erro" id="EBE29AE0-802C-99E1-B861-CA2E9963640A">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-02 11:18:12 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kwh" id="47F34532-2C9B-474F-A5CD-BD81FBF0F78F">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-17 11:31:25 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equipamentos_equipamento_id" id="0BCA95CD-95DC-E2E5-AC9D-BD154BB97C19">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-17 11:32:31 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFBF62FD-0813-7EF5-96B9-18828764550A" referredColumn="1212B5CA-D890-534E-67F3-38D04EEE5776"/>
+</associations>
+</Column>
+<Column name="edificio_edificio_id" id="3A694D15-723E-E018-BDB0-207424BC4EBC">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-17 11:32:54 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A217A7C2-A366-3E26-ADBD-4A3F42BB9FC5" referredColumn="45D48871-D738-B544-B515-5EAA34668296"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FDBEB4D-5E34-BD54-B986-4D31383B3B3E" name="consumos_output_PK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-02 11:19:01 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ECB3E99-196C-46E2-4C40-F15E94A9A7CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60C8E963-0CF8-6010-8FA0-20316B3BAFD4" name="output_equipamentos_FK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-17 11:32:31 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BCA95CD-95DC-E2E5-AC9D-BD154BB97C19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="867102BB-7CD4-AF41-7B73-B2BB0CC27D6E" name="output_edificio_FK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-17 11:32:54 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A694D15-723E-E018-BDB0-207424BC4EBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,1 @@
+create or replace TYPE ERROR_NAME_TABLE AS TABLE OF ERROR_NAME;

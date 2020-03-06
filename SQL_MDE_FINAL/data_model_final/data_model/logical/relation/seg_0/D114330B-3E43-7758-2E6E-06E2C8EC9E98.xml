@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="equipamentos_edificio_FK" directorySegmentName="seg_0" id="D114330B-3E43-7758-2E6E-06E2C8EC9E98">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:47:43 UTC</createdTime>
+<generatorID>ACA492D6-B68F-30AE-E191-0321C0E71D36</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<sourcePk>23130ED6-2347-9AE6-2912-B0F894351967</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E887A577-684D-05A8-4AE4-2B3DBC9BE230</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28BC9C17-DCE3-9576-7557-153ADBE02309</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

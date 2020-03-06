@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4AA1E66-706E-3F0B-E09B-B569631A3D3E" name="tarifas edificios">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:15:03 UTC</createdTime>
+<generatorID>C13A5511-C935-CE86-4777-8DFE63B74254</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="hora inicio" id="EB888713-25F5-60FA-6006-2E3CB4C5EA94">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:15:03 UTC</createdTime>
+<generatorID>C39956DA-C8E6-9FA5-1B6D-778DED01FDD6</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora fim" id="57148043-AF3F-3AB1-F717-6742F8006892">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:15:03 UTC</createdTime>
+<generatorID>D347440F-EA23-3059-ECD7-59DA4EE99D15</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custo tarifa" id="47DB644D-B905-AD71-D822-22D0E281756F">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:15:03 UTC</createdTime>
+<generatorID>4DAFA214-C74D-9513-D116-63DB48BF7685</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edificio id FK" id="E9F99CAD-B36F-1477-840B-BC8C6563D032">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:15:03 UTC</createdTime>
+<generatorID>8B4FE739-8A99-9E85-3E31-82311F64CFA5</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<referedAttribute>395AA91B-05D0-70B9-9F12-1A330155FE3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

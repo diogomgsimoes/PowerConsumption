@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="050E5E05-B1AA-78EB-91FA-6E6E5DF2AF55" containerWithKeyObject="B7243651-5076-E895-9B81-40548F5D5363" localFKIndex="18967A89-4565-C958-4AA0-96AE6D9ED0F8" name="consumos_equipamentos_FK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 17:40:30 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<referredTableLongName>equipamentos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3A077DA-5284-6140-F386-14F6DFC8DEE6</referredTableID>
+<keyObject>233C3D2D-870E-92A3-97E3-D94D805FDF92</keyObject>
+<referredKeyID>233C3D2D-870E-92A3-97E3-D94D805FDF92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>equipamento_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

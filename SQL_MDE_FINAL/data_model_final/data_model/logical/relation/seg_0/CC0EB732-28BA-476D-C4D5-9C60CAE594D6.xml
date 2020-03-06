@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="consumos_equipamentos_FK" directorySegmentName="seg_0" id="CC0EB732-28BA-476D-C4D5-9C60CAE594D6">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:15:03 UTC</createdTime>
+<generatorID>050E5E05-B1AA-78EB-91FA-6E6E5DF2AF55</generatorID>
+<ownerDesignName>data_model</ownerDesignName>
+<engineerTo>
+<item key="C479AAAB-83D3-8341-EA03-775F9A695FF4" value="true"/>
+</engineerTo>
+<sourcePk>4F5DCA43-AE23-4996-5750-C99CBA923693</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>28BC9C17-DCE3-9576-7557-153ADBE02309</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>491FD1A3-4555-624D-DF99-EA27BE908C03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

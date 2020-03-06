@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7243651-5076-E895-9B81-40548F5D5363" name="equipamentos_consumos">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:37:18 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="05F85A16-0CA6-4827-8A98-7A2926C5384C">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:38:15 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="BEBC048E-391C-E84F-8085-515ED0CA6704">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:38:27 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fim" id="32748382-5D0E-0F3D-6EC6-0A8EE1FC6782">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:38:35 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kw" id="1975FBAC-EBEF-3BCA-C9C2-31BB430317A2">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:38:54 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="equipamentos_equipamento_id" id="3E875A0A-EC14-5E26-457F-A0350CED9E3C">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 17:40:30 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="050E5E05-B1AA-78EB-91FA-6E6E5DF2AF55" referredColumn="1212B5CA-D890-534E-67F3-38D04EEE5776"/>
+</associations>
+</Column>
+<Column name="edificio_edificio_id" id="213B0945-5904-4C39-05B9-3315DF478C51">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 17:41:16 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A315093-0259-43BD-67B7-964F8559E9DB" referredColumn="45D48871-D738-B544-B515-5EAA34668296"/>
+</associations>
+</Column>
+<Column name="kwh" id="C9B7464E-02EE-4613-31CC-CC2FFF997F8A">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-17 16:44:00 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7A0CFE7-0840-A4B3-BB19-FC440B041E6F" name="log_PK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:38:15 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05F85A16-0CA6-4827-8A98-7A2926C5384C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18967A89-4565-C958-4AA0-96AE6D9ED0F8" name="consumos_equipamentos_FK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 17:40:30 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E875A0A-EC14-5E26-457F-A0350CED9E3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2347FEB9-BF50-D5E1-AB91-0A930DE69B08" name="consumos_edificio_FK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 17:41:16 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="213B0945-5904-4C39-05B9-3315DF478C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C80D54E8-1E0B-6916-CCDD-F0F18A9E731D">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 17:21:03 UTC</createdTime>
+<ownerDesignName>SKETCH</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

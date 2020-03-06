@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DE5D0025-BF84-A8FA-5E45-F6DC3C30D27B" mainViewID="8CD04A7C-119F-7850-767E-63490E30D017">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 17:21:03 UTC</createdTime>
+<ownerDesignName>SKETCH</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

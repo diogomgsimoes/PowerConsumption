@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3A077DA-5284-6140-F386-14F6DFC8DEE6" name="equipamentos">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:18:49 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<isEngineerToRelation>true</isEngineerToRelation>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="equipamento_id" id="1212B5CA-D890-534E-67F3-38D04EEE5776">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:19:31 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fabricante" id="08558129-DE07-26A4-66CE-27EA8B529107">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:19:47 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="DCA455B5-7D59-5378-E73D-B4F38B0B7055">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:19:47 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referencia" id="0710CCE9-399C-6D85-FB35-4794FE80F317">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:20:54 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tensao" id="A1AED600-F69E-309C-C5B8-04AC917BFCFB">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:21:07 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="potencia" id="2F0C3C86-BF03-65DA-2CBB-D3B44CD35D47">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:21:18 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="corrente" id="E80FE66C-6488-2B0B-6E54-F00A5F929AE8">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:21:18 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="40AADF15-8BAE-3DF1-73C2-880CEA46AEBB">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:21:36 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="divisao_divisao_id" id="98635011-84B9-6598-28FC-24352340C28F">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:24:11 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E8CF873-C8F2-B2E4-64B9-251A78BC28FA" referredColumn="4B92466C-3FA9-D2D9-E540-87B5DE6A758C"/>
+</associations>
+</Column>
+<Column name="edificio_edificio_id" id="7A795753-7856-11B5-7393-E7F3D22B8243">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:24:46 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACA492D6-B68F-30AE-E191-0321C0E71D36" referredColumn="45D48871-D738-B544-B515-5EAA34668296"/>
+</associations>
+</Column>
+<Column name="hora_inicio" id="5F7A3FB5-53B1-62A8-61E0-D442BF41B5F2">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:07:06 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fim" id="3BD45E7C-02DE-B7D8-310E-F5EA614CA1B9">
+<createdBy>diogo</createdBy>
+<createdTime>2019-04-28 13:07:06 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="233C3D2D-870E-92A3-97E3-D94D805FDF92" name="equipamentos_PK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:19:31 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1212B5CA-D890-534E-67F3-38D04EEE5776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="645AB3B1-8B43-A722-7A5E-9324BD7E5162" name="equipamentos__UN">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:22:28 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCA455B5-7D59-5378-E73D-B4F38B0B7055"/>
+<colUsage columnID="0710CCE9-399C-6D85-FB35-4794FE80F317"/>
+<colUsage columnID="40AADF15-8BAE-3DF1-73C2-880CEA46AEBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43ED95B2-0E92-E9BF-6DDB-489E2D201FAE" name="equipamentos_divisao_id_FK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:24:11 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98635011-84B9-6598-28FC-24352340C28F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D50C11FF-CC34-B566-C36A-151B98D331D3" name="equipamentos_edificio_FK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-25 18:24:46 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A795753-7856-11B5-7393-E7F3D22B8243"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

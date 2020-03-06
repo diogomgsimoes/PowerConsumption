@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C13A5511-C935-CE86-4777-8DFE63B74254" name="tarifas_edificios">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 16:35:46 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hora_inicio" id="C39956DA-C8E6-9FA5-1B6D-778DED01FDD6">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 16:36:14 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_fim" id="D347440F-EA23-3059-ECD7-59DA4EE99D15">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 16:36:30 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custo_tarifa" id="4DAFA214-C74D-9513-D116-63DB48BF7685">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 16:36:42 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edificio_id_FK" id="0B88A5DE-D926-A84E-8400-E069205DA9C3">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 16:37:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32DFC893-ED2F-AFD4-9CFA-0486FA6AA183" referredColumn="45D48871-D738-B544-B515-5EAA34668296"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D99C47DA-96C7-7BCA-ABC7-3D87066B2A34" name="tarifas_edificios_edificios_FK">
+<createdBy>diogo</createdBy>
+<createdTime>2019-03-28 16:37:19 UTC</createdTime>
+<ownerDesignName>data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B88A5DE-D926-A84E-8400-E069205DA9C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
