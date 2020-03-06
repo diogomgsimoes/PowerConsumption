@@ -17,22 +17,22 @@ BEGIN
     result_12 := ERROR_NAME_TABLE();
     
     FOR item in c1 LOOP
-        IF item.tipo = 'Erro de potência' THEN
+        IF item.tipo = 'Erro de potÃªncia' THEN
             counter_potencia := counter_potencia +1;
-        ELSIF item.tipo = 'Erro no horário de funcionamento' THEN
+        ELSIF item.tipo = 'Erro no horÃ¡rio de funcionamento' THEN
             counter_horario := counter_horario +1;
-        ELSIF item.tipo = 'Erro no horário de funcionamento e na potência' THEN
+        ELSIF item.tipo = 'Erro no horÃ¡rio de funcionamento e na potÃªncia' THEN
             counter_potencia_horario := counter_potencia_horario + 1;
         END IF;
     END LOOP;
 
     IF counter_potencia > counter_horario AND counter_potencia > counter_potencia_horario THEN
-        select ERROR_NAME(counter_potencia, 'Erro de potência') bulk collect into result_12 from dual;
+        select ERROR_NAME(counter_potencia, 'Erro de potÃªncia') bulk collect into result_12 from dual;
     ELSE
         IF counter_horario > counter_potencia AND counter_horario > counter_potencia_horario THEN
-            select ERROR_NAME(counter_horario, 'Erro no horário de funcionamento') bulk collect into result_12 from dual;
+            select ERROR_NAME(counter_horario, 'Erro no horÃ¡rio de funcionamento') bulk collect into result_12 from dual;
         ELSE
-            select ERROR_NAME(counter_potencia_horario, 'Erro no horário de funcionamento e na potência') bulk collect into result_12 from dual;
+            select ERROR_NAME(counter_potencia_horario, 'Erro no horÃ¡rio de funcionamento e na potÃªncia') bulk collect into result_12 from dual;
         END IF;
     END IF;
 
