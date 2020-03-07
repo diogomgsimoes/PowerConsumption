@@ -17,13 +17,13 @@ BEGIN
                 IF(item.hora_fim >= hora_fim_req)THEN
                     custo := custo + calc_custo(item.id, hora_inicio_req, hora_fim_req, idEquipamento, item.kw, item.edificio_edificio_id ); 
                     energia := energia + (item.kw * DIFF_HOURS(hora_inicio_req, hora_fim_req));
-                    dbms_output.put_line('custo 1บ if = ' || custo);
-                    dbms_output.put_line('energia 1บ if = ' || energia);
+                    dbms_output.put_line('custo 1ยบ if = ' || custo);
+                    dbms_output.put_line('energia 1ยบ if = ' || energia);
                 ELSE
                     custo := custo + calc_custo(item.id, hora_inicio_req, item.hora_fim, idEquipamento, item.kw, item.edificio_edificio_id ); 
                     energia := energia + (item.kw * DIFF_HOURS(hora_inicio_req, item.hora_fim));
-                    dbms_output.put_line('custo 2บ if = ' || custo);
-                    dbms_output.put_line('energia 2บ if = ' || energia);
+                    dbms_output.put_line('custo 2ยบ if = ' || custo);
+                    dbms_output.put_line('energia 2ยบ if = ' || energia);
                 END IF;
            -- ELSE
              --   exit;
@@ -32,13 +32,13 @@ BEGIN
             IF (hora_fim_req >= item.hora_fim) THEN
                 custo := custo + item.total;
                 energia := energia + item.kwh;
-                dbms_output.put_line('custo 3บ if = ' || custo);
-                dbms_output.put_line('energia 3บ if = ' || energia);
+                dbms_output.put_line('custo 3ยบ if = ' || custo);
+                dbms_output.put_line('energia 3ยบ if = ' || energia);
             ELSE
                 custo := custo + calc_custo(item.id, item.hora_inicio, hora_fim_req, idEquipamento, item.kw, item.edificio_edificio_id ); 
                 energia := energia + item.kw * DIFF_HOURS(item.hora_inicio, hora_fim_req); 
-               dbms_output.put_line('custo 4บ if = ' || custo);
-                dbms_output.put_line('energia 4บ if = ' || energia);
+               dbms_output.put_line('custo 4ยบ if = ' || custo);
+                dbms_output.put_line('energia 4ยบ if = ' || energia);
             END IF;
         END IF;
     END LOOP;
