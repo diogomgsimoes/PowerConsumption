@@ -51,19 +51,19 @@ BEGIN
     IF (potencia != potencia_teste) THEN
         IF (boolean_end OR boolean_start) THEN
             INSERT INTO consumos_output (id, hora_inicio, hora_fim, kw, total, erro, kwh, equipamentos_equipamento_id, edificio_edificio_id) 
-            VALUES (idConsumos, hora_inicio_teste, hora_fim_teste, potencia_teste, custo, 'Erro no horário de funcionamento e na potência', energia, idEquipamento, idEdificio);
-            INSERT INTO erros (id, equipamento, tipo) VALUES (idConsumos, idEquipamento, 'Erro no horário de funcionamento e na potência');
+            VALUES (idConsumos, hora_inicio_teste, hora_fim_teste, potencia_teste, custo, 'Erro no horÃ¡rio de funcionamento e na potÃªncia', energia, idEquipamento, idEdificio);
+            INSERT INTO erros (id, equipamento, tipo) VALUES (idConsumos, idEquipamento, 'Erro no horÃ¡rio de funcionamento e na potÃªncia');
         ELSE 
             INSERT INTO consumos_output (id, hora_inicio, hora_fim, kw, total, erro, kwh, equipamentos_equipamento_id, edificio_edificio_id) 
-            VALUES (idConsumos, hora_inicio_teste, hora_fim_teste, potencia_teste, custo, 'Erro de potência',  energia, idEquipamento, idEdificio);
-            INSERT INTO erros (id, equipamento, tipo) VALUES (idConsumos, idEquipamento, 'Erro de potência');
+            VALUES (idConsumos, hora_inicio_teste, hora_fim_teste, potencia_teste, custo, 'Erro de potÃªncia',  energia, idEquipamento, idEdificio);
+            INSERT INTO erros (id, equipamento, tipo) VALUES (idConsumos, idEquipamento, 'Erro de potÃªncia');
         END IF;
         
     ELSE
         IF (boolean_end OR boolean_start) THEN
             INSERT INTO consumos_output (id, hora_inicio, hora_fim, kw, total, erro, kwh, equipamentos_equipamento_id, edificio_edificio_id) 
-            VALUES (idConsumos, hora_inicio_teste, hora_fim_teste, potencia_teste, custo, 'Erro no horário de funcionamento',  energia, idEquipamento, idEdificio);
-            INSERT INTO erros (id, equipamento, tipo) VALUES (idConsumos, idEquipamento, 'Erro no horário de funcionamento');
+            VALUES (idConsumos, hora_inicio_teste, hora_fim_teste, potencia_teste, custo, 'Erro no horÃ¡rio de funcionamento',  energia, idEquipamento, idEdificio);
+            INSERT INTO erros (id, equipamento, tipo) VALUES (idConsumos, idEquipamento, 'Erro no horÃ¡rio de funcionamento');
         ELSE 
             INSERT INTO consumos_output (id, hora_inicio, hora_fim, kw, total, erro,  kwh, equipamentos_equipamento_id, edificio_edificio_id) 
             VALUES (idConsumos, hora_inicio_teste, hora_fim_teste, potencia_teste, custo, 'Nada a apresentar',  energia, idEquipamento, idEdificio);
